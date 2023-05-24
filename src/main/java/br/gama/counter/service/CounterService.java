@@ -10,5 +10,4 @@ public class CounterService {
     public int getCounter() {
         return ++count;
     }
-    
 }
