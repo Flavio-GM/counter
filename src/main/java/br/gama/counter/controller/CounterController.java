@@ -16,9 +16,6 @@ public class CounterController {
 
     @GetMapping
     public String getCounter() {
-        return "Contador acessado " + service.getCounter() + " vez(es)";
+        return "Contador acessado = " + service.getCounter() + " vez(es)";
     }
-
-
-    
 }
